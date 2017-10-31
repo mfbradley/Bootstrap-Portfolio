@@ -87,6 +87,30 @@
         .message {
             padding-bottom: 150px;
         }
+
+        @keyframes submitSlide {
+            0% {
+                left: 0px;
+                bottom: 0px;
+            }
+
+            50% {
+                left: 0px;
+                bottom: 550px;
+            }
+
+            100% {
+                left: 0px;
+                bottom: 0px;
+            }
+        }
+
+        .submit {
+            position: relative;
+            animation-name: submitSlide;
+            animation-duration: 10s;
+            animation-timing-function: ease-in-out;
+        }
     </style>
 
 </head>
